@@ -14,6 +14,8 @@ public class Methods {
 
         calculateNumbers();
         myName();
+        myShoesize();
+        printName("Ahmed", 20);
 
     }
 
@@ -32,5 +34,17 @@ public class Methods {
 
     }
 
+    public static void myShoesize() {
+
+        double myShoesize = 9.5;
+
+        System.out.println("My Shoe Size is " + myShoesize);
+
+    }
+
+    public static void printName(String name, int age) {
+        System.out.println("My Name is " + name + " and My age is " + age);
+
+    }
 
 }
